@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<project name = "orian" default = "info">
+
+<target name = "info">
+<echo>This is my ant file ${ant.file} </echo>
+<echo>this is my ant.version ${ant.version} </echo>
+<echo>this is my ant base directory ${basedir}  </echo>
+<echo> this is my java version ${ant.java.version} </echo>
+</target>
+
+
+</project>
