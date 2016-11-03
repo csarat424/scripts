@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<project name = "orian" default = "compile">
+
+<target name = "compile" depends="run">
+<echo> compile block executed </echo>
+</target>
+
+<target name = "run" >
+<echo> clean block executed </echo>
+</target>
+
+</project>
