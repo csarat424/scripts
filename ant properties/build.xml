@@ -6,6 +6,10 @@
 <echo>this is my ant.version ${ant.version} </echo>
 <echo>this is my ant base directory ${basedir}  </echo>
 <echo> this is my java version ${ant.java.version} </echo>
+<echo> this is my ant project name ${ant.project.name} </echo>
+<echo> this is my default target ${ant.project.default-target} </echo>
+<echo> this is my default invoked targets ${ant.project.invoked-targets} </echo>
+<echo> the home directory ${ant.home} </echo>
 </target>
 
 
